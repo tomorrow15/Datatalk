@@ -4,6 +4,19 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 import pickle
 
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mutual_info_score
+from sklearn.preprocessing import MinMaxScaler,StandardScaler
+from sklearn.feature_extraction import DictVectorizer
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import roc_auc_score
+from sklearn.metrics import accuracy_score
+from sklearn.model_selection import KFold
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import KBinsDiscretizer, LabelEncoder
+import xgboost as xgb
+
 
 raw_df = pd.read_csv('heart.csv')
 
