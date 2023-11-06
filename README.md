@@ -13,16 +13,27 @@ This is heart prediction project that uses Heart Failure Prediction dataset from
 # Feature Information
 
 Age: age of the patient 
+
 Sex: sex of the patient 
+
 ChestPainType: chest pain type 
+
 RestingBP: resting blood pressure 
+
 Cholesterol: serum cholesterol
+
 FastingBS: fasting blood sugar
+
 RestingECG: resting electrocardiogram results
+
 MaxHR: maximum heart rate 
+
 ExerciseAngina: exercise-induced angina 
+
 Oldpeak: oldpeak 
+
 ST_Slope: the slope of the peak exercise 
+
 HeartDisease: output class 
 
 # File Description
