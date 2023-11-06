@@ -39,27 +39,26 @@ predict_test.py: send the request via Flask and testing the model
 # How to run docker and pipenv
 Install Docker for windows
 copy scripts (final_train, predict and predict_test), pipenv file and Dockerfile to a folder
-<pre>
+
 Install pipenv 
-<pre>
+
   
 Install required packages
-<pre>
 pipenv install numpy pandas scikit-learn flask waitress 
-<pre>
+
 
 In terminal,create Docker image with the desired name.
 [midterm-project]can be changed as u like.
-<pre>
-  docker build -t midterm-project .
-<pre>
+
+docker build -t midterm-project .
+
 Run Docker to load the model
 docker run -it --rm -p 9696:9696 midterm-project
 I used 9696:9696 because I host local 9696 port in Docker
 In another terminal,run predict_test.py
-<pre>
+
   python predict_test.py
-<pre>
+
   
 VOILA!! you can check the patient has heartdisease or not ^_^
 
