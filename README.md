@@ -59,29 +59,29 @@ Install Docker for windows
 
 copy scripts (final_train, predict and predict_test), pipenv file and Dockerfile to a folder
 
-Install pipenv 
+>Install pipenv 
 
   
 Install required packages
 
-pipenv install numpy pandas scikit-learn flask waitress 
+>pipenv install numpy pandas scikit-learn flask waitress 
 
 
 In terminal,create Docker image with the desired name.
 
 [midterm-project]can be changed as u like.
 
-docker build -t midterm-project .
+>docker build -t midterm-project .
 
 Run Docker to load the model
 
-docker run -it --rm -p 9696:9696 midterm-project
+>docker run -it --rm -p 9696:9696 midterm-project
 
 I used 9696:9696 because I host local 9696 port in Docker
 
 In another terminal,run predict_test.py
 
-python predict_test.py
+>python predict_test.py
 
   
 VOILA!! you can check the patient has heartdisease or not ^_^
