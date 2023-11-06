@@ -59,7 +59,7 @@ Install Docker for windows
 
 copy scripts (final_train, predict and predict_test), pipenv file and Dockerfile to a folder
 
->Install pipenv 
+'''Install pipenv'''
 
   
 Install required packages
