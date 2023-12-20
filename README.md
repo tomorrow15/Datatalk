@@ -7,7 +7,7 @@ In this project, I used multiple machine learning models to predict drug classif
 
 # Dataset
 
-This is drug classification project that uses drug classification dataset from Kaggle datasets.  Here is the link to it:https://www.kaggle.com/datasets/prathamtripathi/drug-classification/data
+This is drug classification project that uses drug classification dataset from Kaggle datasets. Here is the link to it:https://www.kaggle.com/datasets/prathamtripathi/drug-classification/data
 
 # Feature Information
 
